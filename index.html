@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>10 000 FCFA 😂</title>
+<style>
+body {
+  background: #101010;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px 15px;
+}
+h1 { color: #ffd700; }
+button {
+  background: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#surprise { display: none; }
+img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+}
+</style>
+</head>
+<body>
+<div id="depart">
+  <h1>💸 GAGNE 10 000 FCFA !</h1>
+  <p>Tu veux recevoir ton argent ? 😎</p>
+  <button onclick="prank()">CLIQUE POUR RECEVOIR 💰</button>
+</div>
+
+<div id="surprise">
+  <h1>🦍 VA TRAVAILLER, PETIT ! 😂</h1>
+  <img src="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=800&q=80" alt="Gorille">
+  <h2>🤣 Les 10 000 FCFA sont dans tes rêves !</h2>
+</div>
+
+<script>
+function prank() {
+  document.getElementById("depart").style.display = "none";
+  document.getElementById("surprise").style.display = "block";
+}
+</script>
+</body>
+</html>
